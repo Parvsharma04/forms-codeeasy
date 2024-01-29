@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.signup-container {
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+}
+
+.signup-container h2 {
+    color: darkred; /* Keeping the same red color as in the login page */
+}
+
+.signup-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-container label {
+    margin-bottom: 8px;
+    color: #555;
+}
+
+.signup-container input {
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.signup-container button {
+    background-color: #c40c0c; /* Keeping the same red color as in the login page */
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.signup-container button:hover {
+    background-color: #811a1a; /* Slightly darker shade on hover */
+}
+
+.login-link {
+    color: #c40c0c; /* Keeping the same red color as in the login page */
+    text-decoration: none;
+}
+
+.login-link:hover {
+    text-decoration: underline;
+}
+
+.signup-container h2:hover {
+    color: #e63535; /* Lighter shade on hover */
+}
